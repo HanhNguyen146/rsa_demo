@@ -1,0 +1,3 @@
+# Thư viện cần thiết cho chế độ B (RSA chuẩn 2048-bit)
+# Chế độ A (số nguyên tố nhỏ thủ công) chỉ dùng thư viện chuẩn Python
+cryptography>=41.0.0

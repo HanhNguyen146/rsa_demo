@@ -1,0 +1,31 @@
+FIRMWARE v1.0.0
+================
+Manufacturer   : DEMO Corp
+Target Device  : IoT Sensor v2
+Build Date     : 2025-01-01
+Build ID       : 7f3a9c2b-1e8d-4f56-a2c3-0d1e2f3a4b5c
+Encryption     : None (educational demo)
+Signature Algo : RSA-PSS-SHA256
+
+[BOOT SECTION - 0x0000]
+JUMP 0x0200
+NOP
+NOP
+INIT_STACK 0x8000
+
+[CODE SECTION - 0x0100]
+LOAD R0, #0x3300
+STORE R0, PORT_CTRL
+CALL INIT_SENSOR
+CALL MAIN_LOOP
+
+[CONFIG SECTION - 0x0200]
+device_id      = SENSOR_001
+sampling_rate  = 100Hz
+voltage        = 3.3V
+sleep_mode     = deep
+watchdog_timer = 30s
+temp_threshold = 85C
+comm_protocol  = UART_115200
+
+[END OF FIRMWARE]

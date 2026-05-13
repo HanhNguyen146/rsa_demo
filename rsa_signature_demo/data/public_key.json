@@ -1,0 +1,12 @@
+{
+    "mode": "manual",
+    "description": "Khóa công khai RSA — tạo thủ công (chỉ dùng cho demo)",
+    "e": 257,
+    "n": 3233,
+    "key_size_bits": 12,
+    "generation_params": {
+        "p": 61,
+        "q": 53,
+        "phi_n": 3120
+    }
+}
