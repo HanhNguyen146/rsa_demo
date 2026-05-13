@@ -1,35 +1,5 @@
 {
-    "mode": "manual",
-    "description": "Chữ ký số RSA-PSS (demo số nguyên tố nhỏ)",
-    "algorithm": "Simplified-RSA-PSS-SHA256",
-    "original_hash_hex": "3611998e9e53da8f4ab33b71264d16e2e87ce2b17d39bed218ad80bc75b25770",
-    "salt_hex": "4482ab0c1f120146",
-    "salt_bytes_decimal": [
-        68,
-        130,
-        171,
-        12,
-        31,
-        18,
-        1,
-        70
-    ],
-    "witness_H_hex": "2866646cf80c5510303c1490550fb3acbaa89b456158896286dc2b6f008fb4b3",
-    "encoded_message_int": 1364,
-    "signature_int": 1903,
-    "signature_hex": "76f",
-    "signing_demo": {
-        "note": "Ký 2 lần với 2 salt khác nhau để chứng minh PSS Randomization",
-        "round1": {
-            "salt_hex": "4482ab0c1f120146",
-            "encoded_message": 1364,
-            "signature_int": 1903
-        },
-        "round2": {
-            "salt_hex": "2dc2f57dacc5674d",
-            "encoded_message": 1245,
-            "signature_int": 300
-        },
-        "signatures_are_different": true
-    }
+    "hash_int": 2548,
+    "signature_int": 1599,
+    "signature_hex": "63f"
 }

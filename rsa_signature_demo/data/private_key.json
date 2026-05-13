@@ -1,13 +1,4 @@
 {
-    "mode": "manual",
-    "description": "Khóa bí mật RSA — KHÔNG CHIA SẺ FILE NÀY!",
     "d": 2513,
-    "n": 3233,
-    "key_size_bits": 12,
-    "generation_params": {
-        "p": 61,
-        "q": 53,
-        "phi_n": 3120,
-        "e": 257
-    }
+    "n": 3233
 }
